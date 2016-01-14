@@ -16,7 +16,7 @@ import java.awt.Choice;
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 
-public class My_Swing {
+public class MySwing {
 
 	private JFrame frame;
 
@@ -27,7 +27,7 @@ public class My_Swing {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					My_Swing window = new My_Swing();
+					MySwing window = new MySwing();
 					window.frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -48,7 +48,7 @@ public class My_Swing {
 	private JTextField txtSelectPriority;
 	private JButton btnWriteCurrentQueue;
 
-	public My_Swing() {
+	public MySwing() {
 		initialize();
 	}
 
