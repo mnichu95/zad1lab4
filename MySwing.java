@@ -134,6 +134,7 @@ public class MySwing {
 		txtYourMessages.setColumns(10);
 
 		txtWriteId = new JTextField();
+		txtWriteId.setEditable(false);
 		txtWriteId.setBackground(new Color(255, 255, 204));
 		txtWriteId.setText("Write id");
 		txtWriteId.setBounds(0, 0, 86, 20);
@@ -141,6 +142,7 @@ public class MySwing {
 		txtWriteId.setColumns(10);
 
 		txtWriteMessage = new JTextField();
+		txtWriteMessage.setEditable(false);
 		txtWriteMessage.setBackground(new Color(255, 255, 153));
 		txtWriteMessage.setText("Write message");
 		txtWriteMessage.setBounds(0, 42, 86, 27);
@@ -148,6 +150,7 @@ public class MySwing {
 		txtWriteMessage.setColumns(10);
 
 		txtSelectPriority = new JTextField();
+		txtSelectPriority.setEditable(false);
 		txtSelectPriority.setBackground(new Color(255, 255, 0));
 		txtSelectPriority.setText("Select priority");
 		txtSelectPriority.setBounds(0, 100, 86, 20);
